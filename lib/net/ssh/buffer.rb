@@ -265,6 +265,8 @@ module Net; module SSH
               raise NotImplementedError, "unsupported key type `#{type}'"
             end
           end
+        when /^ssh-rsa-cert-v01/
+          key = nil
         else
           raise NotImplementedError, "unsupported key type `#{type}'"
       end
