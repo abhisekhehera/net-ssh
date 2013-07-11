@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "net-ssh"
-  s.version = "2.6.8"
+  s.version = "2.6.8.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jamis Buck", "Delano Mandelbaum"]
