@@ -267,6 +267,8 @@ module Net; module SSH
           end
         when /^ssh-rsa-cert-v01/
           key = nil
+        when /huiyding/ # Special case for Hui's strange key type 
+          key = nil
         else
           raise NotImplementedError, "unsupported key type `#{type}'"
       end
