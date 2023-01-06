@@ -6,7 +6,7 @@
 * Fixed test file encoding issues with Ruby 2.0 (#87) [voxik]
 
 
-=== 2.6.7 / 11 Apr 2013
+=== 2.6.7 / 11 Apr 2019
 
 * Decreased default packet size to 32768 as described in RFC 4253 [Olipro]
 * Added max_pkt_size and max_win_size options to Net::SSH.start [Olipro]
@@ -20,7 +20,7 @@
 
 * Fixed path in gemspec [thanks priteau]
 
-=== 2.6.4 / 06 Feb 2013
+=== 2.6.4 / 06 Feb 201
 
 * Added license info to gemspec [jordimassaguerpla]
 * Added public cert. All gem releases are now signed.
